@@ -1,27 +1,34 @@
-import navImg from '../src/assets/logo.png'
-import dollarImg from './assets/Currency.png'
+
 import './App.css'
+import { Suspense } from 'react'
+import AvailablePlayers from './components/AvailablePlayers/AvailablePlayers'
+import SelectedPlayers from './components/SelectedPlayers/SelectedPlayers'
+import NavBar from './components/NavBar/NavBar'
+
+
+const playerPromise = fetch("../public/utilitis/cricket_players_100.json").then(res => res.json())  
+
+
 
 function App() {
+
 
 
   return (
     <>
 
-      <div className="navbar w-10/12 mx-auto my-5 p-3">
-        <div className="flex-1">
-          <a className=" text-xl">
-            <img className='w-12' src={navImg} alt="" />
-          </a>
-        </div>
-        <div className="flex items-center  gap-3">
-          <span>60000000000000</span>
-          <span>Coin</span>
-          <img src={dollarImg}  alt="" />
-        </div>
-      </div>
+        <NavBar/>
+      
+
+      <Suspense fallback={<div className='text-center text-3xl font-bold mt-20'><span className="loading loading-spinner loading-xl"></span></div>}>
+        <AvailablePlayers playerPromise={playerPromise}/>
+      </Suspense>
 
 
+
+    <Suspense>
+      <SelectedPlayers/>
+    </Suspense>
     </>
   )
 }
