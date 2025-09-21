@@ -1,0 +1,205 @@
+
+
+
+[
+  {
+    "playerImg":"https://documents.iplt20.com/ipl/IPLHeadshot2025/62.png",
+    "playerName": "Shubman Gill",
+    "playerCountry": "India",
+    "playerDesignation": "Batsman",
+    "playerRating": 820,
+    "playerBrandValue": "$25 Million",
+    "playerRole": "Batsman",
+    "playerHand": "Right-Hand"
+  },
+  {
+    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsNXAIzP9MdJ-NBbb_Cl6U7vPag9NNvx6ccQ&s",
+    "playerName": "Shaheen Afridi",
+    "playerCountry": "Pakistan",
+    "playerDesignation": "Bowler",
+    "playerRating": 810,
+    "playerBrandValue": "$15 Million",
+    "playerRole": "Bowler",
+    "playerHand": "Left-Hand"
+  },
+  {
+    "playerImg": "https://documents.iplt20.com/ipl/IPLHeadshot2024/65.png",
+    "playerName": "Kane Williamson",
+    "playerCountry": "New Zealand",
+    "playerDesignation": "Batsman",
+    "playerRating": 850,
+    "playerBrandValue": "$30 Million",
+    "playerRole": "Batsman",
+    "playerHand": "Right-Hand"
+  },
+  {
+    "playerImg": "https://www.mumbaiindians.com/static-assets/images/players/large/action-shots/7797.png?v=5.64&w=400",
+    "playerName": "Mohammad Nabi",
+    "playerCountry": "Afghanistan",
+    "playerDesignation": "All-Rounder",
+    "playerRating": 700,
+    "playerBrandValue": "$10 Million",
+    "playerRole": "All-Rounder",
+    "playerHand": "Right-Hand"
+  },
+  {
+    "playerImg": "https://goyahills.com/wp-content/uploads/2025/03/Arshdeep-Singh.jpg",
+    "playerName": "Arshdeep Singh",
+    "playerCountry": "India",
+    "playerDesignation": "Bowler",
+    "playerRating": 750,
+    "playerBrandValue": "$12 Million",
+    "playerRole": "Bowler",
+    "playerHand": "Left-Hand"
+  },
+  {
+    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv2eVRl41oSUlVlNx4tZlFIx9ZVQWyOfVfnw&s",
+    "playerName": "Jos Buttler",
+    "playerCountry": "England",
+    "playerDesignation": "Wicket-Keeper",
+    "playerRating": 830,
+    "playerBrandValue": "$20 Million",
+    "playerRole": "Wicket-Keeper",
+    "playerHand": "Right-Hand"
+  },
+  {
+    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZbnRlk6x95F8_cysMYq5RjmDKUwRUNaQ0wg&s",
+    "playerName": "Babar Azam",
+    "playerCountry": "Pakistan",
+    "playerDesignation": "Batsman",
+    "playerRating": 880,
+    "playerBrandValue": "$28 Million",
+    "playerRole": "Batsman",
+    "playerHand": "Right-Hand"
+  },
+  {
+    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM6EX-dRdqOYAFVpy4331tNsJgF4e-yn15iQ&s",
+    "playerName": "David Warner",
+    "playerCountry": "Australia",
+    "playerDesignation": "Batsman",
+    "playerRating": 840,
+    "playerBrandValue": "$35 Million",
+    "playerRole": "Batsman",
+    "playerHand": "Left-Hand"
+  },
+  {
+    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9O3lFwbiddEFmzNPMmpcVLuyLhkUHbbqIFg&s",
+    "playerName": "Quinton de Kock",
+    "playerCountry": "South Africa",
+    "playerDesignation": "Wicket-Keeper",
+    "playerRating": 810,
+    "playerBrandValue": "$22 Million",
+    "playerRole": "Wicket-Keeper",
+    "playerHand": "Left-Hand"
+  },
+  {
+    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRopqmxPdaHU5zw1fGvvxPlNFJEwndd_Xi0aw&s",
+    "playerName": "Shakib Al Hasan",
+    "playerCountry": "Bangladesh",
+    "playerDesignation": "All-Rounder",
+    "playerRating": 860,
+    "playerBrandValue": "$18 Million",
+    "playerRole": "All-Rounder",
+    "playerHand": "Left-Hand"
+  },
+  {
+    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1fJvTAhUCkG5XyKyP1dFMiRkuaXPAMMRN2w&s",
+    "playerName": "Rashid Khan",
+    "playerCountry": "Afghanistan",
+    "playerDesignation": "Bowler",
+    "playerRating": 870,
+    "playerBrandValue": "$26 Million",
+    "playerRole": "Bowler",
+    "playerHand": "Right-Hand"
+  },
+  {
+    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZRSD_5nKo4Pl0IE4JwEpA_EWzTfPP7SN6Ng&s",
+    "playerName": "Glenn Maxwell",
+    "playerCountry": "Australia",
+    "playerDesignation": "All-Rounder",
+    "playerRating": 820,
+    "playerBrandValue": "$24 Million",
+    "playerRole": "All-Rounder",
+    "playerHand": "Right-Hand"
+  },
+  {
+    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRplNdXtUlya8EzaX_ebur5zplGcW2W7nxrgg&s",
+    "playerName": "Andre Russell",
+    "playerCountry": "West Indies",
+    "playerDesignation": "All-Rounder",
+    "playerRating": 815,
+    "playerBrandValue": "$20 Million",
+    "playerRole": "All-Rounder",
+    "playerHand": "Right-Hand"
+  },
+  {
+    "playerImg": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Mujeeb_Ur_Rahman_2018.jpg",
+    "playerName": "Mujeeb Ur Rahman",
+    "playerCountry": "Afghanistan",
+    "playerDesignation": "Bowler",
+    "playerRating": 780,
+    "playerBrandValue": "$12 Million",
+    "playerRole": "Bowler",
+    "playerHand": "Right-Hand"
+  },
+  {
+    "playerImg": "https://upload.wikimedia.org/wikipedia/commons/6/62/Chris_Gayle_2019.jpg",
+    "playerName": "Chris Gayle",
+    "playerCountry": "West Indies",
+    "playerDesignation": "Batsman",
+    "playerRating": 890,
+    "playerBrandValue": "$38 Million",
+    "playerRole": "Batsman",
+    "playerHand": "Left-Hand"
+  },
+  {
+    "playerImg": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Pat_Cummins_2023.jpg",
+    "playerName": "Pat Cummins",
+    "playerCountry": "Australia",
+    "playerDesignation": "Bowler",
+    "playerRating": 860,
+    "playerBrandValue": "$30 Million",
+    "playerRole": "Bowler",
+    "playerHand": "Right-Hand"
+  },
+  {
+    "playerImg": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Jofra_Archer_2019.jpg",
+    "playerName": "Jofra Archer",
+    "playerCountry": "England",
+    "playerDesignation": "Bowler",
+    "playerRating": 770,
+    "playerBrandValue": "$14 Million",
+    "playerRole": "Bowler",
+    "playerHand": "Right-Hand"
+  },
+  {
+    "playerImg": "https://upload.wikimedia.org/wikipedia/commons/c/c6/MS_Dhoni_in_2023.jpg",
+    "playerName": "MS Dhoni",
+    "playerCountry": "India",
+    "playerDesignation": "Wicket-Keeper",
+    "playerRating": 900,
+    "playerBrandValue": "$50 Million",
+    "playerRole": "Wicket-Keeper",
+    "playerHand": "Right-Hand"
+  },
+  {
+    "playerImg": "https://upload.wikimedia.org/wikipedia/commons/6/62/Rohit_Sharma_2023.jpg",
+    "playerName": "Rohit Sharma",
+    "playerCountry": "India",
+    "playerDesignation": "Batsman",
+    "playerRating": 880,
+    "playerBrandValue": "$45 Million",
+    "playerRole": "Batsman",
+    "playerHand": "Right-Hand"
+  },
+  {
+    "playerImg": "https://upload.wikimedia.org/wikipedia/commons/1/14/Virat_Kohli_2023.jpg",
+    "playerName": "Virat Kohli",
+    "playerCountry": "India",
+    "playerDesignation": "Batsman",
+    "playerRating": 950,
+    "playerBrandValue": "$237 Million",
+    "playerRole": "Batsman",
+    "playerHand": "Right-Hand"
+  }
+]
