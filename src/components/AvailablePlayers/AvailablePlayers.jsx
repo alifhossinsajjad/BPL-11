@@ -13,11 +13,12 @@ const AvailablePlayers = ({ playerPromise }) => {
 
             {
                 playerData.map(player => <div key={player.id}
-                    className="card bg-base-100 w-96 shadow-sm p-4">
+                    className="card bg-base-100 w-80 mx-auto md:w-96 xl:w-96 shadow-sm p-4">
                     <figure>
                         <img
                             src={player.playerImg}
-                            alt="Shoes" />
+                            alt="Shoes" 
+                            className='w-full h-62 object-cover'/>
                     </figure>
                     <div className="m-4">
                         <div className='flex items-center gap-3 mt-2 mb-3'>
