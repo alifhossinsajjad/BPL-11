@@ -2,6 +2,7 @@
 import UserImg from '../../assets/user-1.png'
 import countryFlag from '../../assets/report-1.png'
 import { useState } from 'react';
+import { toast } from 'react-toastify';
 
 const PlayerCard = ({ player, availableBalance, setAvailableBalance,choosePlayers,setChoosePlayers }) => {
 
@@ -12,7 +13,7 @@ const PlayerCard = ({ player, availableBalance, setAvailableBalance,choosePlayer
     const handleSelected = (playerData) => {
         const playerBrandValue = parseInt(playerData.playerBrandValue.split('$').join('').split('USD').join('').split(',').join(''))
         if (availableBalance < playerBrandValue) {
-            alert('Not enough balance')
+            toast('Not enough balance')
             return;
         }
         { setIsSelected(true) }

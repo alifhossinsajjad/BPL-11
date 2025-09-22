@@ -4,6 +4,7 @@ import { Suspense, useState } from 'react'
 import AvailablePlayers from './components/AvailablePlayers/AvailablePlayers'
 import SelectedPlayers from './components/SelectedPlayers/SelectedPlayers'
 import NavBar from './components/NavBar/NavBar'
+import { ToastContainer } from 'react-toastify'
 
 
 const playerPromise = fetch("/utilitis/cricket_players_100.json").then(res => res.json())  
@@ -15,7 +16,7 @@ function App() {
 
   const [toggle, setToggle] = useState(true)
 
-  const [availableBalance, setAvailableBalance] = useState(40000000)  
+  const [availableBalance, setAvailableBalance] = useState(9800000)  
 
   const [choosePlayers, setChoosePlayers] = useState([])
 
@@ -53,7 +54,7 @@ function App() {
       
       
 
-
+        <ToastContainer/>
 
     
     </>
