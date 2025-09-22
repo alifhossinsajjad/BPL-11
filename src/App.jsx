@@ -15,11 +15,12 @@ function App() {
 
   const [toggle, setToggle] = useState(true)
 
+  const [availableBalance, setAvailableBalance] = useState(200000)
 
   return (
     <>
 
-        <NavBar/>
+        <NavBar availableBalance= {availableBalance}/>
 
         <div className='w-10/12 mx-auto my-5 p-3 flex justify-between items-center'>
           <h1 className='font-bold text-2xl'>Available Players</h1>
@@ -34,7 +35,7 @@ function App() {
 
         {
           toggle === true ?<Suspense fallback={<div className='text-center text-3xl font-bold mt-20'><span className="loading loading-spinner loading-xl"></span></div>}>
-        <AvailablePlayers playerPromise={playerPromise}/>
+        <AvailablePlayers availableBalance={availableBalance} setAvailableBalance ={setAvailableBalance} playerPromise={playerPromise}/>
       </Suspense> : <Suspense>
       <SelectedPlayers/>
     </Suspense>
