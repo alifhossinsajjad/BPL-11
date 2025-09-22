@@ -16,6 +16,11 @@ const PlayerCard = ({ player, availableBalance, setAvailableBalance,choosePlayer
             toast('Not enough balance')
             return;
         }
+
+        if(choosePlayers.length >= 6){
+            toast('Your 6 Player already selected')
+            return;
+        }
         { setIsSelected(true) }
             setAvailableBalance(availableBalance - playerBrandValue);
 
