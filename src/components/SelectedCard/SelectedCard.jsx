@@ -1,7 +1,7 @@
 import React from 'react';
 import deleteImg from '../../assets/Frame.png'
 
-const SelectedCard = ({ player,removePlayer }) => {
+const SelectedCard = ({ player,removePlayer, }) => {
     console.log(player);
 
     const handeRemovePlayer = ()=> {
