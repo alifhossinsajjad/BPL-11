@@ -3,7 +3,7 @@ import SelectedCard from '../SelectedCard/SelectedCard';
 
 
 
-const SelectedPlayers = ({choosePlayers,removePlayer}) => {
+const SelectedPlayers = ({choosePlayers,removePlayer,setToggle}) => {
 
 
 
@@ -13,7 +13,7 @@ const SelectedPlayers = ({choosePlayers,removePlayer}) => {
                 choosePlayers.map(player => <SelectedCard removePlayer={removePlayer}  key={player.id} player={player} />)
             }
             <div>
-                <button >Add More</button>
+                <button onClick={() => { setToggle(true) }} className='btn rounded-xl bg-[#E7FE29] mt-3 border-0'>Add More</button>
             </div>
         </div>
         
